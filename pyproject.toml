@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "torfek-kgbuild_jd032"
+name = "torfek-query_rewrite_drift_schema_check"
 version = "0.1.0"
 description = "从样本里推断知识图谱构建工程师·查询改写的语义漂移应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://torfek.github.io"
-Repository = "https://github.com/torfek/kgbuild_jd032"
-Issues = "https://github.com/torfek/kgbuild_jd032/issues"
+Repository = "https://github.com/torfek/query_rewrite_drift_schema_check"
+Issues = "https://github.com/torfek/query_rewrite_drift_schema_check/issues"
 
 [project.scripts]
-kgbuild_jd032 = "kgbuild_jd032:main"
+query_rewrite_drift_schema_check = "query_rewrite_drift_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["kgbuild_jd032"]
+py-modules = ["query_rewrite_drift_schema_check"]
